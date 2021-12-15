@@ -134,7 +134,7 @@ The process includes:
 - RMSE - 0.062
 This means that for a whole season, my predictions are wrong in just about 0.3 points per team - which is really good.
 
-<p align="center"><img width="500" alt="Captura de pantalla 2021-12-15 a las 21 50 25" src="https://user-images.githubusercontent.com/90793442/146263081-392f1022-61d1-4318-a5ea-dccee910fb8d.png"></p>
+<p align="center"><img width="700" alt="Captura de pantalla 2021-12-15 a las 21 50 25" src="https://user-images.githubusercontent.com/90793442/146263081-392f1022-61d1-4318-a5ea-dccee910fb8d.png"></p>
 
 **Player Performance prediction:** The best model was _Model 4:_ Stack Best of - Linear Model, Decission Tree, Random Forest.  
 With it, my predictions have the following socores:
@@ -143,5 +143,5 @@ With it, my predictions have the following socores:
 - RMSE - 0.15 
 This means that for a whole season, my predictions are wrong in just about 1.9 points per player - which is really good.
 
-<p align="center"><img width="713" alt="Captura de pantalla 2021-12-15 a las 21 52 12" src="https://user-images.githubusercontent.com/90793442/146263253-0f5ccb77-53ef-4106-88d1-cdfcfa497ca8.png"></p>
+<p align="center"><img width="500" alt="Captura de pantalla 2021-12-15 a las 21 52 12" src="https://user-images.githubusercontent.com/90793442/146263253-0f5ccb77-53ef-4106-88d1-cdfcfa497ca8.png"></p>
 
