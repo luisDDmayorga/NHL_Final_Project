@@ -108,6 +108,7 @@ The process includes:
     - _Model 3:_ Random Forest
     - **_Model 4:_ Stack Best of - Linear Model, Decission Tree, Random Forest**
     - _Model 5:_ Stack Best of - Linear Model, Random Forest
+    - _Model 6_ Neural Network
   - Comparing models
 
 <p align="center"><img width="486" alt="Captura de pantalla 2021-12-15 a las 14 39 27" src="https://user-images.githubusercontent.com/90793442/146196790-a7fdb883-9cf7-4f77-8375-ab82b38814b4.png"></p>
@@ -117,4 +118,24 @@ The process includes:
   - Using _Model 4_ to predict teams points per game
   - Create dataframe with players and predicted points
 
+**Tools**
 
+Scrapping Data - [NHL API](https://gitlab.com/dword4/nhlapi/-/blob/master/stats-api.md)
+Code: [Jupyter Notebook]
+Vizualizations: [Tableau] / Pandas / Seaborn / Matplotlib
+Presentation: [Keynote]
+
+<a name="KT"></a>
+## Key Takeaways
+
+**PlayOffs prediction:** The best model was _Model 1_ - Linear Regression Model. With it, my predictions have the following socores:
+- R2 - 0.86
+- MSE - 0.0038
+- RMSE - 0.062
+This means that for a whole season, my predictions are wrong in just about 0.3 points per team - which is really good
+
+**PlayOffs prediction:** The best model was _Model 1_ - Linear Regression Model. With it, my predictions have the following socores:
+- R2 - 0.70
+- MSE - 0.023
+- RMSE - 0.15 
+This means that for a whole season, my predictions are wrong in just about 1.9 points per player - which is really good
