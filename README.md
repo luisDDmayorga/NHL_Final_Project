@@ -111,7 +111,7 @@ The process includes:
     - _Model 6_ Neural Network
   - Comparing models
 
-<p align="center"><img width="486" alt="Captura de pantalla 2021-12-15 a las 14 39 27" src="https://user-images.githubusercontent.com/90793442/146196790-a7fdb883-9cf7-4f77-8375-ab82b38814b4.png"></p>
+<p align="center"><img width="500" alt="Captura de pantalla 2021-12-15 a las 14 39 27" src="https://user-images.githubusercontent.com/90793442/146196790-a7fdb883-9cf7-4f77-8375-ab82b38814b4.png"></p>
 
   - Scrapping players in current season
   - Process data the same way as I've done with the past seasons players
@@ -134,7 +134,7 @@ The process includes:
 - RMSE - 0.062
 This means that for a whole season, my predictions are wrong in just about 0.3 points per team - which is really good.
 
-<p align="center"><img width="1046" alt="Captura de pantalla 2021-12-15 a las 21 50 25" src="https://user-images.githubusercontent.com/90793442/146263081-392f1022-61d1-4318-a5ea-dccee910fb8d.png"></p>
+<p align="center"><img width="500" alt="Captura de pantalla 2021-12-15 a las 21 50 25" src="https://user-images.githubusercontent.com/90793442/146263081-392f1022-61d1-4318-a5ea-dccee910fb8d.png"></p>
 
 **Player Performance prediction:** The best model was _Model 4:_ Stack Best of - Linear Model, Decission Tree, Random Forest.  
 With it, my predictions have the following socores:
