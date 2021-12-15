@@ -1,6 +1,6 @@
 # Becoming a NHL analyst from scracht
 
-## Creating a model able to predict wheter or not a team will make the PlayOffs this season (21-22)
+## Creating a model able to predict if a team will make the PlayOffs this season (21-22)
 ## Creating a model able to predict the player performance this season (21-22)
 
 <p align="center"><img width="300" alt="nhl" src="https://user-images.githubusercontent.com/90793442/146153272-dc60850c-ca8f-46ed-a2c0-fb368696fd5e.png"></p>
@@ -132,10 +132,10 @@ Presentation: [Keynote]
 - R2 - 0.86
 - MSE - 0.0038
 - RMSE - 0.062
-This means that for a whole season, my predictions are wrong in just about 0.3 points per team - which is really good
+This means that for a whole season, my predictions are wrong in just about 0.3 points per team - which is really good.
 
-**PlayOffs prediction:** The best model was _Model 1_ - Linear Regression Model. With it, my predictions have the following socores:
+**Player Performance prediction:** The best model was _Model 1_ - Linear Regression Model. With it, my predictions have the following socores:
 - R2 - 0.70
 - MSE - 0.023
 - RMSE - 0.15 
-This means that for a whole season, my predictions are wrong in just about 1.9 points per player - which is really good
+This means that for a whole season, my predictions are wrong in just about 1.9 points per player - which is really good.
