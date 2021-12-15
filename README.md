@@ -53,24 +53,68 @@ The process includes:
 - Understanding hockey stats
 - Finding out wich are the best teams in the league
 - Finding out who are the superstars players in the league
-- Starting with __Playoff Precictions__
+- __Playoff Precictions:__
   - Scrapping teams stats from past seasons
   - Converting total stats into stats per game - scaling data
   - Exploratory Data Analysis - EDA:
     - Dealing with nulls
-    - Finding Correlations - dropping power_play_opportunities after trying leaving it (high correlated)
+    - Finding Correlations - dropping power_play_opportunities - high correlated - (after experimenting leaving it)
     - Dropping irrelevant features for modeling - season, team_id, team_name, gamesplayed_x, gamesplayed_y, rank
 <p align="center"><img width="513" alt="Captura de pantalla 2021-12-15 a las 12 45 32" src="https://user-images.githubusercontent.com/90793442/146180823-d32f6001-626d-4a38-9449-49c9bc4642c9.png"></p>
 
-- Preparing data for modeling:
+  - Preparing data for modeling:
     - Isolate target value
     - Trying different scalers - in the end I opted not to use any as my data was already scaled by number of games
- - Tried different Machine learning models for regression as follows:
-    - _Model 1:_ Linear Model
+  - Tried different Machine learning models for regression as follows:
+    - **_Model 1:_ Linear Model**
     - _Model 2:_ Decission Tree
     - _Model 3:_ Random Forest
     - _Model 4:_ Stack Best of - Linear Model, Decission Tree, Random Forest
     - _Model 5:_ Stack Best of - Linear Model, Random Forest
- - Comparing models
+  - Comparing models
 <p align="center"><img width="565" alt="Captura de pantalla 2021-12-15 a las 13 02 18" src="https://user-images.githubusercontent.com/90793442/146183064-382f8455-23ba-46cc-9778-ec4660863d0c.png"></p>
+
+  - Scrapping teams in current season
+  - Process data the same way as I've done with the past seasons teams
+  - Using _Model 1_ to predict teams points per game
+  - Ranking teams and adding a playoff columns to say if they will make the playoffs or not
+
+<p align="center"><img width="980" alt="Captura de pantalla 2021-12-15 a las 14 21 43" src="https://user-images.githubusercontent.com/90793442/146194013-a4f57599-650f-41db-9b66-097ddc71b6cb.png"></p>
+
+- __Players performance prediction__
+  - Scrapping player stats from past seasons
+  - Exploratory Data Analysis - EDA:
+    - Dealing with nulls
+    - Transforming weight into kg and height into cms
+    - Creating 'age' column
+    - Changing 'birthday' type to DateTime
+    - Creating 'games_per_season' columns
+    - Changing 'time' and 'season' columns format 
+    - Creating 'points' columns
+    - Converting total stats into stats per game - scaling data
+    - Dealing with outliers - Dropping some outliers (after experimenting leaving some of them)
+    - Finding correlation - Dropping some columns (after experimenting leaving some of them)
+    - Selecting relevant features for modeling (after experiment with some others)
+    - Plotting data in scatter matrix
+
+ <p align="center"><img width="587" alt="Captura de pantalla 2021-12-15 a las 14 36 36" src="https://user-images.githubusercontent.com/90793442/146196339-99134b2b-eb04-4303-8291-17262c0eb907.png"></p>
+ 
+  - Preparing data for modeling:
+    - Isolate target value
+    - Trying different scalers - in the end I opted not to use any as my data was already scaled by number of games
+  - Tried different Machine learning models for regression as follows:
+    - _Model 1:_ Linear Model
+    - _Model 2:_ Decission Tree
+    - _Model 3:_ Random Forest
+    - **_Model 4:_ Stack Best of - Linear Model, Decission Tree, Random Forest**
+    - _Model 5:_ Stack Best of - Linear Model, Random Forest
+  - Comparing models
+
+<p align="center"><img width="486" alt="Captura de pantalla 2021-12-15 a las 14 39 27" src="https://user-images.githubusercontent.com/90793442/146196790-a7fdb883-9cf7-4f77-8375-ab82b38814b4.png"></p>
+
+  - Scrapping players in current season
+  - Process data the same way as I've done with the past seasons players
+  - Using _Model 4_ to predict teams points per game
+  - Create dataframe with players and predicted points
+
 
