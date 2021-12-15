@@ -120,10 +120,10 @@ The process includes:
 
 **Tools**
 
-Scrapping Data - [NHL API](https://gitlab.com/dword4/nhlapi/-/blob/master/stats-api.md)
-Code: [Jupyter Notebook]
-Vizualizations: [Tableau] / Pandas / Seaborn / Matplotlib
-Presentation: [Keynote]
+- Scrapping Data - [NHL API](https://gitlab.com/dword4/nhlapi/-/blob/master/stats-api.md)
+- Code: [Jupyter Notebook](https://github.com/luisDDmayorga/NHL_Final_Project/tree/main/Jupyter%20Notebooks)
+- Vizualizations: [Tableau] / Pandas / Seaborn / Matplotlib
+- Presentation: [Keynote]
 
 <a name="KT"></a>
 ## Key Takeaways
@@ -134,8 +134,14 @@ Presentation: [Keynote]
 - RMSE - 0.062
 This means that for a whole season, my predictions are wrong in just about 0.3 points per team - which is really good.
 
-**Player Performance prediction:** The best model was _Model 1_ - Linear Regression Model. With it, my predictions have the following socores:
+<p align="center"><img width="1046" alt="Captura de pantalla 2021-12-15 a las 21 50 25" src="https://user-images.githubusercontent.com/90793442/146263081-392f1022-61d1-4318-a5ea-dccee910fb8d.png"></p>
+
+**Player Performance prediction:** The best model was _Model 4:_ Stack Best of - Linear Model, Decission Tree, Random Forest.  
+With it, my predictions have the following socores:
 - R2 - 0.70
 - MSE - 0.023
 - RMSE - 0.15 
 This means that for a whole season, my predictions are wrong in just about 1.9 points per player - which is really good.
+
+<p align="center"><img width="713" alt="Captura de pantalla 2021-12-15 a las 21 52 12" src="https://user-images.githubusercontent.com/90793442/146263253-0f5ccb77-53ef-4106-88d1-cdfcfa497ca8.png"></p>
+
