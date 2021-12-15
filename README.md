@@ -28,7 +28,7 @@ For the playoff prediction, the dataframe obtained consists on:
        shots_per_game, shots_allowed_per_game, gamesplayed_y, points,
        rank
 - Target value: points
-For further details on all features, please refer to [notebook 1]
+For further details on all features, please refer to [notebook 1](https://github.com/luisDDmayorga/NHL_Final_Project/blob/main/Jupyter%20Notebooks/PlayOffs%20Prediction%20-%20Final%20Project.ipynb)
 
 <img width="1129" alt="Captura de pantalla 2021-12-15 a las 12 44 36" src="https://user-images.githubusercontent.com/90793442/146180676-1c857c53-032e-4af6-9d88-dcd40ecb068e.png">
 
@@ -40,7 +40,7 @@ For the players perfonces prediction, the dataframe obtained consists on:
        hits_2, shots_2, time_2, plus_minus_2, season_1, season_2,
        season_3, ppg_3, team_1 and team_2
 - Target value: ppg_3
-For further details on all features, please refer to [notebook 2]
+For further details on all features, please refer to [notebook 2](https://github.com/luisDDmayorga/NHL_Final_Project/blob/main/Jupyter%20Notebooks/Players%20performance%20Prediction%20-%20Final%20Project.ipynb)
 
 <img width="1112" alt="Captura de pantalla 2021-12-15 a las 12 41 19" src="https://user-images.githubusercontent.com/90793442/146180277-78e07170-a896-4e35-b674-79ca2da332a9.png">
 
