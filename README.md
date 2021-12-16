@@ -111,7 +111,8 @@ The process includes:
     - _Model 6_ Neural Network
   - Comparing models
 
-<p align="center"><img width="500" alt="Captura de pantalla 2021-12-15 a las 14 39 27" src="https://user-images.githubusercontent.com/90793442/146196790-a7fdb883-9cf7-4f77-8375-ab82b38814b4.png"></p>
+ <p align="center"><img width="648" alt="image" src="https://user-images.githubusercontent.com/90793442/146361975-a9442fa8-7e65-4f34-9e27-9e979115a893.png"></p>
+
 
   - Scrapping players in current season
   - Process data the same way as I've done with the past seasons players
