@@ -28,7 +28,7 @@ For the playoff prediction, the dataframe obtained consists on:
        shots_per_game, shots_allowed_per_game, gamesplayed_y, points,
        rank
 - Target value: points
-For further details on all features, please refer to [notebook 1]
+For further details on all features, please refer to [notebook 1](https://github.com/luisDDmayorga/NHL_Final_Project/blob/main/Jupyter%20Notebooks/PlayOffs%20Prediction%20-%20Final%20Project.ipynb)
 
 <img width="1129" alt="Captura de pantalla 2021-12-15 a las 12 44 36" src="https://user-images.githubusercontent.com/90793442/146180676-1c857c53-032e-4af6-9d88-dcd40ecb068e.png">
 
@@ -40,7 +40,7 @@ For the players perfonces prediction, the dataframe obtained consists on:
        hits_2, shots_2, time_2, plus_minus_2, season_1, season_2,
        season_3, ppg_3, team_1 and team_2
 - Target value: ppg_3
-For further details on all features, please refer to [notebook 2]
+For further details on all features, please refer to [notebook 2](https://github.com/luisDDmayorga/NHL_Final_Project/blob/main/Jupyter%20Notebooks/Players%20performance%20Prediction%20-%20Final%20Project.ipynb)
 
 <img width="1112" alt="Captura de pantalla 2021-12-15 a las 12 41 19" src="https://user-images.githubusercontent.com/90793442/146180277-78e07170-a896-4e35-b674-79ca2da332a9.png">
 
@@ -72,7 +72,8 @@ The process includes:
     - _Model 4:_ Stack Best of - Linear Model, Decission Tree, Random Forest
     - _Model 5:_ Stack Best of - Linear Model, Random Forest
   - Comparing models
-<p align="center"><img width="565" alt="Captura de pantalla 2021-12-15 a las 13 02 18" src="https://user-images.githubusercontent.com/90793442/146183064-382f8455-23ba-46cc-9778-ec4660863d0c.png"></p>
+
+<p align="center"><img width="660" alt="Captura de pantalla 2021-12-16 a las 12 18 02" src="https://user-images.githubusercontent.com/90793442/146362303-96afc1c6-d8bf-468b-b1a6-5c36884fa3e6.png"></p>
 
   - Scrapping teams in current season
   - Process data the same way as I've done with the past seasons teams
@@ -111,7 +112,8 @@ The process includes:
     - _Model 6_ Neural Network
   - Comparing models
 
-<p align="center"><img width="486" alt="Captura de pantalla 2021-12-15 a las 14 39 27" src="https://user-images.githubusercontent.com/90793442/146196790-a7fdb883-9cf7-4f77-8375-ab82b38814b4.png"></p>
+ <p align="center"><img width="648" alt="image" src="https://user-images.githubusercontent.com/90793442/146361975-a9442fa8-7e65-4f34-9e27-9e979115a893.png"></p>
+
 
   - Scrapping players in current season
   - Process data the same way as I've done with the past seasons players
@@ -120,10 +122,10 @@ The process includes:
 
 **Tools**
 
-Scrapping Data - [NHL API](https://gitlab.com/dword4/nhlapi/-/blob/master/stats-api.md)
-Code: [Jupyter Notebook]
-Vizualizations: [Tableau] / Pandas / Seaborn / Matplotlib
-Presentation: [Keynote]
+- Scrapping Data - [NHL API](https://gitlab.com/dword4/nhlapi/-/blob/master/stats-api.md)
+- Code: [Jupyter Notebook](https://github.com/luisDDmayorga/NHL_Final_Project/tree/main/Jupyter%20Notebooks)
+- Vizualizations: [Tableau] / Pandas / Seaborn / Matplotlib
+- Presentation: [Keynote]
 
 <a name="KT"></a>
 ## Key Takeaways
@@ -134,8 +136,14 @@ Presentation: [Keynote]
 - RMSE - 0.062
 This means that for a whole season, my predictions are wrong in just about 0.3 points per team - which is really good.
 
-**Player Performance prediction:** The best model was _Model 1_ - Linear Regression Model. With it, my predictions have the following socores:
+<p align="center"><img width="700" alt="Captura de pantalla 2021-12-15 a las 21 50 25" src="https://user-images.githubusercontent.com/90793442/146263081-392f1022-61d1-4318-a5ea-dccee910fb8d.png"></p>
+
+**Player Performance prediction:** The best model was _Model 4:_ Stack Best of - Linear Model, Decission Tree, Random Forest.  
+With it, my predictions have the following socores:
 - R2 - 0.70
 - MSE - 0.023
 - RMSE - 0.15 
 This means that for a whole season, my predictions are wrong in just about 1.9 points per player - which is really good.
+
+<p align="center"><img width="500" alt="Captura de pantalla 2021-12-15 a las 21 52 12" src="https://user-images.githubusercontent.com/90793442/146263253-0f5ccb77-53ef-4106-88d1-cdfcfa497ca8.png"></p>
+
