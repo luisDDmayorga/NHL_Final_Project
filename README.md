@@ -33,7 +33,7 @@ For further details on all features, please refer to [notebook 1](https://github
 <img width="1129" alt="Captura de pantalla 2021-12-15 a las 12 44 36" src="https://user-images.githubusercontent.com/90793442/146180676-1c857c53-032e-4af6-9d88-dcd40ecb068e.png">
 
 For the players perfonces prediction, the dataframe obtained consists on:
-- 12055 samples
+- 8498 samples
 - 29 columns: name, position, country, birthday, id, height, weight,
        goals_1, assists_1, pim_1, games_1, hits_1, hots_1,
        time_1, plus_minus_1, goals_2, assists_2, pim_2, games_2,
