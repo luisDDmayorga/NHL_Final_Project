@@ -80,7 +80,7 @@ The process includes:
   - Using _Model 1_ to predict teams points per game
   - Ranking teams and adding a playoff columns to say if they will make the playoffs or not
 
-<p align="center"><img width="980" alt="Captura de pantalla 2021-12-15 a las 14 21 43" src="https://user-images.githubusercontent.com/90793442/146194013-a4f57599-650f-41db-9b66-097ddc71b6cb.png"></p>
+<p align="center"><img width="600" alt="Captura de pantalla 2021-12-15 a las 14 21 43" src="https://user-images.githubusercontent.com/90793442/146194013-a4f57599-650f-41db-9b66-097ddc71b6cb.png"></p>
 
 - __Players performance prediction__
   - Scrapping player stats from past seasons
@@ -98,7 +98,7 @@ The process includes:
     - Selecting relevant features for modeling (after experiment with some others)
     - Plotting data in scatter matrix
 
- <p align="center"><img width="587" alt="Captura de pantalla 2021-12-15 a las 14 36 36" src="https://user-images.githubusercontent.com/90793442/146196339-99134b2b-eb04-4303-8291-17262c0eb907.png"></p>
+ <p align="center"><img width="600" alt="Captura de pantalla 2021-12-15 a las 14 36 36" src="https://user-images.githubusercontent.com/90793442/146196339-99134b2b-eb04-4303-8291-17262c0eb907.png"></p>
  
   - Preparing data for modeling:
     - Isolate target value
