@@ -9,7 +9,6 @@
 - [Project Brief](#PB)
 - [Data](#DT)
 - [Process & Tools](#PT)
-- [Visualization](#VI) 
 - [Key Takeaways](#KT)
 
 <a name="PB"></a>
@@ -123,7 +122,7 @@ The process includes:
 
 - Scrapping Data - [NHL API](https://gitlab.com/dword4/nhlapi/-/blob/master/stats-api.md)
 - Code: [Jupyter Notebook](https://github.com/luisDDmayorga/NHL_Final_Project/tree/main/Jupyter%20Notebooks)
-- Vizualizations: [Tableau] / Pandas / Seaborn / Matplotlib
+- Vizualizations: Pandas / Seaborn / Matplotlib
 - Presentation: [Keynote]
 
 <a name="KT"></a>
