@@ -72,7 +72,8 @@ The process includes:
     - _Model 4:_ Stack Best of - Linear Model, Decission Tree, Random Forest
     - _Model 5:_ Stack Best of - Linear Model, Random Forest
   - Comparing models
-<p align="center"><img width="565" alt="Captura de pantalla 2021-12-15 a las 13 02 18" src="https://user-images.githubusercontent.com/90793442/146183064-382f8455-23ba-46cc-9778-ec4660863d0c.png"></p>
+
+<p align="center"><img width="660" alt="Captura de pantalla 2021-12-16 a las 12 18 02" src="https://user-images.githubusercontent.com/90793442/146362303-96afc1c6-d8bf-468b-b1a6-5c36884fa3e6.png"></p>
 
   - Scrapping teams in current season
   - Process data the same way as I've done with the past seasons teams
