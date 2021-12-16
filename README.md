@@ -9,7 +9,6 @@
 - [Project Brief](#PB)
 - [Data](#DT)
 - [Process & Tools](#PT)
-- [Visualization](#VI) 
 - [Key Takeaways](#KT)
 
 <a name="PB"></a>
@@ -33,7 +32,7 @@ For further details on all features, please refer to [notebook 1](https://github
 <img width="1129" alt="Captura de pantalla 2021-12-15 a las 12 44 36" src="https://user-images.githubusercontent.com/90793442/146180676-1c857c53-032e-4af6-9d88-dcd40ecb068e.png">
 
 For the players perfonces prediction, the dataframe obtained consists on:
-- 12055 samples
+- 8498 samples
 - 29 columns: name, position, country, birthday, id, height, weight,
        goals_1, assists_1, pim_1, games_1, hits_1, hots_1,
        time_1, plus_minus_1, goals_2, assists_2, pim_2, games_2,
@@ -73,14 +72,14 @@ The process includes:
     - _Model 5:_ Stack Best of - Linear Model, Random Forest
   - Comparing models
 
-<p align="center"><img width="660" alt="Captura de pantalla 2021-12-16 a las 12 18 02" src="https://user-images.githubusercontent.com/90793442/146362303-96afc1c6-d8bf-468b-b1a6-5c36884fa3e6.png"></p>
+<p align="center"><img width="859" alt="Captura de pantalla 2021-12-16 a las 15 59 21" src="https://user-images.githubusercontent.com/90793442/146395424-30fe4a99-ace3-40a8-8f8b-a2dc364daa21.png"></p>
 
   - Scrapping teams in current season
   - Process data the same way as I've done with the past seasons teams
   - Using _Model 1_ to predict teams points per game
   - Ranking teams and adding a playoff columns to say if they will make the playoffs or not
 
-<p align="center"><img width="980" alt="Captura de pantalla 2021-12-15 a las 14 21 43" src="https://user-images.githubusercontent.com/90793442/146194013-a4f57599-650f-41db-9b66-097ddc71b6cb.png"></p>
+<p align="center"><img width="600" alt="Captura de pantalla 2021-12-15 a las 14 21 43" src="https://user-images.githubusercontent.com/90793442/146194013-a4f57599-650f-41db-9b66-097ddc71b6cb.png"></p>
 
 - __Players performance prediction__
   - Scrapping player stats from past seasons
@@ -98,7 +97,7 @@ The process includes:
     - Selecting relevant features for modeling (after experiment with some others)
     - Plotting data in scatter matrix
 
- <p align="center"><img width="587" alt="Captura de pantalla 2021-12-15 a las 14 36 36" src="https://user-images.githubusercontent.com/90793442/146196339-99134b2b-eb04-4303-8291-17262c0eb907.png"></p>
+ <p align="center"><img width="600" alt="Captura de pantalla 2021-12-15 a las 14 36 36" src="https://user-images.githubusercontent.com/90793442/146196339-99134b2b-eb04-4303-8291-17262c0eb907.png"></p>
  
   - Preparing data for modeling:
     - Isolate target value
@@ -112,8 +111,7 @@ The process includes:
     - _Model 6_ Neural Network
   - Comparing models
 
- <p align="center"><img width="648" alt="image" src="https://user-images.githubusercontent.com/90793442/146361975-a9442fa8-7e65-4f34-9e27-9e979115a893.png"></p>
-
+<p align="center"><img width="840" alt="Captura de pantalla 2021-12-16 a las 16 03 06" src="https://user-images.githubusercontent.com/90793442/146395972-f7666906-ccd2-4960-a39e-dd9150535ef8.png"></p>
 
   - Scrapping players in current season
   - Process data the same way as I've done with the past seasons players
@@ -124,7 +122,7 @@ The process includes:
 
 - Scrapping Data - [NHL API](https://gitlab.com/dword4/nhlapi/-/blob/master/stats-api.md)
 - Code: [Jupyter Notebook](https://github.com/luisDDmayorga/NHL_Final_Project/tree/main/Jupyter%20Notebooks)
-- Vizualizations: [Tableau] / Pandas / Seaborn / Matplotlib
+- Vizualizations: Pandas / Seaborn / Matplotlib
 - Presentation: [Keynote]
 
 <a name="KT"></a>
@@ -134,7 +132,8 @@ The process includes:
 - R2 - 0.86
 - MSE - 0.0038
 - RMSE - 0.062
-This means that for a whole season, my predictions are wrong in just about 0.3 points per team - which is really good.
+- MAE - 0.04862
+This means that for a whole season, my predictions are wrong in just about 4 points per team - which is really good.
 
 <p align="center"><img width="700" alt="Captura de pantalla 2021-12-15 a las 21 50 25" src="https://user-images.githubusercontent.com/90793442/146263081-392f1022-61d1-4318-a5ea-dccee910fb8d.png"></p>
 
@@ -142,8 +141,9 @@ This means that for a whole season, my predictions are wrong in just about 0.3 p
 With it, my predictions have the following socores:
 - R2 - 0.70
 - MSE - 0.023
-- RMSE - 0.15 
-This means that for a whole season, my predictions are wrong in just about 1.9 points per player - which is really good.
+- RMSE - 0.15
+- MAE - 0.1142 
+This means that for a whole season, my predictions are wrong in just about 9.4 points per player - which is really good.
 
 <p align="center"><img width="500" alt="Captura de pantalla 2021-12-15 a las 21 52 12" src="https://user-images.githubusercontent.com/90793442/146263253-0f5ccb77-53ef-4106-88d1-cdfcfa497ca8.png"></p>
 
