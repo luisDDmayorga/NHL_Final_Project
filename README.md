@@ -1,4 +1,4 @@
-# Becoming a NHL analyst from scracht
+# Becoming a NHL analyst from scratch
 
 ## Creating a model able to predict if a team will make the PlayOffs this season (21-22)
 ## Creating a model able to predict the player performance this season (21-22)
