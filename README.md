@@ -1,4 +1,4 @@
-# Becoming a NHL analyst from scracht
+# Becoming a NHL analyst from scratch
 
 ## Creating a model able to predict if a team will make the PlayOffs this season (21-22)
 ## Creating a model able to predict the player performance this season (21-22)
@@ -123,7 +123,7 @@ The process includes:
 - Scrapping Data - [NHL API](https://gitlab.com/dword4/nhlapi/-/blob/master/stats-api.md)
 - Code: [Jupyter Notebook](https://github.com/luisDDmayorga/NHL_Final_Project/tree/main/Jupyter%20Notebooks)
 - Vizualizations: Pandas / Seaborn / Matplotlib
-- Presentation: [Keynote](https://github.com/luisDDmayorga/NHL_Final_Project/blob/main/Presentation/NHL%20Presentation%20Final%20PDF.pdf)
+- Presentation: [Keynote](https://github.com/luisDDmayorga/NHL_Final_Project/blob/main/Presentation/NHL%20PRESENTATION%20%20FINAL%20-%20PDF.pdf)
 
 <a name="KT"></a>
 ## Key Takeaways
